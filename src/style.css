@@ -1,0 +1,81 @@
+
+.page{
+    display:flex;
+    flex-direction: row;
+    background-color: #7CD2D7;
+}
+.pic{
+    background-color:#7CD2D7 ;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+}
+.pic img{
+  width:300px;  
+}
+.pic p{
+    padding: 80px 10px;
+}
+.form{
+    border-radius: 30px;
+    background-color: white;
+    width: 80%;
+}
+
+.btns{
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.btns button{
+    padding: 15px 30px;
+    background-color:white ;
+    border: 1px solid grey;
+    border-radius: 8px;
+    align-items: center;
+}
+h1{
+    padding: 0px 150px;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 10px 150px;
+}
+.elements input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ededed;
+}
+.elements button{
+    padding: 12px;
+    background-color: #7CD2D7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.form p{
+    color:red;
+    /* padding: 0px 20px; */
+    margin-bottom: 100px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.form span{
+    margin-left:350px;
+    color: grey;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+#success{
+    color: green;
+}
